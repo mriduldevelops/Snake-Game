@@ -58,8 +58,9 @@
     /* background: linear-gradient(red, purple); */
     /* border: .25vmin solid black; */
     /* border-radius: 8px; */
-    background: url('/assets/apple.png');
-    background-size: cover;
+    background: url('https://www.freeiconspng.com/uploads/apple-fruit-cartoon-transparent-28.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .buttons{
