@@ -125,6 +125,7 @@ window.addEventListener("keydown", (e) => {
 const buttons = document.querySelectorAll('button')
 buttons.forEach((button)=>{
   button.addEventListener('click', ()=>{
+    moveSound.play();
     if(button.classList.contains('ArrowUp')){
       InputDir.x = 0;
       InputDir.y = -1;
