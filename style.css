@@ -9,12 +9,14 @@
     height: 100vh;
     background-color: #0b1b00;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    gap: 30px;
 }
 
 #scoreBox{
+    margin-top: 0;
     width: 100%;
     text-align: center;
     font-size: 39px;
@@ -24,6 +26,7 @@
 }
 
 #board{
+
     /* background: linear-gradient(#98e498, #ececa1); */
 
     background: url("https://opengameart.org/sites/default/files/grass_51.png");
@@ -96,4 +99,5 @@ button{
     font-size: 2rem;
     background-color: #71a02b;
     color: #0b1b00;
+    border-radius: 9px;
 }
