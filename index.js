@@ -121,3 +121,22 @@ window.addEventListener("keydown", (e) => {
       break;
     }
 });
+
+const buttons = document.querySelectorAll('button')
+buttons.forEach((button)=>{
+  button.addEventListener('click', ()=>{
+    if(button.classList.contains('ArrowUp')){
+      InputDir.x = 0;
+      InputDir.y = -1;
+    } else if(button.classList.contains('ArrowRight')){
+      InputDir.x = 1;
+      InputDir.y = 0;
+    }else if(button.classList.contains('ArrowLeft')){
+      InputDir.x = -1;
+      InputDir.y = 0;
+    } else if(button.classList.contains('ArrowDown')){
+      InputDir.x = 0;
+      InputDir.y = 1;
+    }
+  })
+})
