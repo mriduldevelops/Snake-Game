@@ -113,13 +113,12 @@ nav{
 
 button{
     padding: 5px;
-    border: 2px solid #979797;
     font-size: 2rem;
     font-weight: bolder;
     background-color: #222222;
     color: #fff;
     border-radius: 9px;    
-    box-shadow: #979797 0px 2px 8px 0px inset;
+    box-shadow: #979797 0px 2px 8px 0px;
 }
 
 footer{
