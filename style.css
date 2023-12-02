@@ -30,10 +30,11 @@ nav{
 }
 
 #scoreBox{
+    margin-top: 80px;
     padding-right: 30px;
     width: 100%;
     text-align: right;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: #979797;
 }
@@ -47,7 +48,8 @@ nav{
     background-size: contain;
     width: 90vmin;
     height: 90vmin;
-    border: 3px solid #979797;
+    box-shadow: #979797 0px 2px 8px 0px;
+    /* border: 3px solid #979797; */
     /* border: 3px solid #71a02b; */
     border-radius: 8px;
     display: grid;
@@ -71,7 +73,8 @@ nav{
 
 .food{
     background: linear-gradient(red, purple);
-    border: 1px solid black;
+    box-shadow: red 0px 2px 8px 0px;
+    /* border: 1px solid black; */
     border-radius: 9px;
     /* background: url('https://www.freeiconspng.com/uploads/apple-fruit-cartoon-transparent-28.png'); */
     background-size: contain;
@@ -79,7 +82,8 @@ nav{
 }
 
 .buttons{
-    width: 90vmin;
+    width: 50vmin;
+    height: 50vmin;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -115,11 +119,11 @@ button{
     background-color: #222222;
     color: #fff;
     border-radius: 9px;    
+    box-shadow: #979797 0px 2px 8px 0px inset;
 }
 
 footer{
-    position: absolute;
-    bottom: 5px;
+    margin: 10px 0 1px ;
     color: #fff;
 }
 a{
